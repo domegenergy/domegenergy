@@ -17,25 +17,6 @@ gsap.from(menu_items.children, {
   },
 });
 
-// gsap.utils.toArray(".star").forEach((star) => {
-//   gsap.fromTo(
-//     star,
-//     {
-//       rotation: 450,
-//       opacity: 0,
-//       y: 100,
-//     },
-//     {
-//       rotation: 0,
-//       opacity: 1,
-//       y: 0,
-//       duration: 1,
-//       delay: 1.5,
-//       scrollTrigger: star,
-//     }
-//   );
-// });
-
 gsap.utils.toArray(".title").forEach((title) => {
   gsap.fromTo(
     title,
@@ -131,58 +112,6 @@ gsap.utils.toArray(".line").forEach((line) => {
     }
   );
 });
-
-gsap.utils.toArray(".rotation").forEach((rotate) => {
-  gsap.fromTo(
-    rotate,
-    {
-      opacity: 0,
-      rotation: 350,
-      scale: 0.2,
-    },
-    {
-      opacity: 1,
-      rotation: 0,
-      scale: 1,
-      duration: 1,
-      delay: 1,
-      scrollTrigger: rotate,
-    }
-  );
-});
-
-gsap.fromTo(
-  ".card",
-  {
-    opacity: 0,
-    scale: 0.1,
-  },
-  {
-    opacity: 1,
-    scale: 1,
-    duration: 1,
-    delay: 0.5,
-    stagger: {
-      amount: 1,
-    },
-    scrollTrigger: ".card",
-  }
-);
-
-// const menu = document.querySelector(".menu");
-
-// gsap.from(menu.children, {
-//   opacity: 0,
-//   x: 50,
-//   duration: 1,
-//   delay: 0.5,
-//   stagger: {
-//     amount: 1,
-//   },
-//   scrollTrigger: {
-//     trigger: menu.children,
-//   },
-// });
 
 const images = [
   "./img/bg-3.jpg",

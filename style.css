@@ -100,10 +100,11 @@ body {
 .menu-items {
   display: flex;
   gap: 2rem;
+  list-style: none;
 }
 
 li {
-  list-style: none;
+  /* list-style: none; */
   text-transform: capitalize;
 }
 
@@ -219,8 +220,17 @@ button:hover {
   background: linear-gradient(to right, #121772, #075886);
 }
 
-.glow {
-  filter: drop-shadow(-20px 0px 1.75em rgb(81, 147, 194));
+.mission-and-vission {
+  margin-top: 130px;
+  line-height: 1.5;
+}
+
+.vision {
+  color: #0152fc;
+}
+
+.vision h2 {
+  font: bold;
 }
 
 .right-side {
@@ -305,14 +315,15 @@ button:hover {
   background: linear-gradient(to right, #3f4c6b, #535e79);
 }
 
-.card:hover {
+/* .card:hover {
   background: linear-gradient(to left, #3a7bd5, #00d2ff);
-}
+} */
 
 .color {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .card span {
@@ -326,9 +337,10 @@ button:hover {
 }
 
 .stay-up{
-    color: #0152fc;
+    /* color: #0152fc; */
     font-weight: bold;
     font-size: 24px;
+    margin-bottom: 12px;
 }
 
 .txt {
@@ -406,6 +418,10 @@ footer {
   position: absolute;
   left: 40%;
   width: 40px;
+}
+
+.location {
+  width: 30px;
 }
 
 /* .image {
@@ -682,11 +698,15 @@ footer {
 
   #choose-domeg {
     height: fit-content;
-    margin-top: 120px;
+    /* margin-top: 120px; */
   }
 
   section {
     height: fit-content;
     padding: 3rem;
+  }
+
+  .location {
+    margin: 0 auto;
   }
 }
