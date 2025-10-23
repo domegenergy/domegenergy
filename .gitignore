@@ -1,1 +1,22 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.nfs*
+
+# General editor/OS cache files
+*.swp
+*.swo
+*.tmp
+*.log
+
 .vercel
